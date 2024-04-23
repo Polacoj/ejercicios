@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+.contenedor {
+	margin: 10% auto auto;
+	width: 300px;
+	height: 420px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: orange;
+}
+
+.titulo {
+	width: 100%;
+	margin: -7% auto;
+	text-align: center;
+}
+
+.imagen {
+	display: flex;
+    position: relative; /*no estaba */
+    top: 8.5%;   /*15%*/
+	margin: auto;  /*12% auto*/
+}
+span {
+	padding: 0 15%;
+	border: 2px solid black;
+	border-radius: 14px;
+	background-color: coral;
+	text-align: center;
+	font-family: "Nanum Gothic", sans-serif;
+	letter-spacing: 120;
+}
+table{
+    margin: 20% auto;
+}
+
+th,
+td {
+	font-family: "Raleway", sans-serif;
+	padding: 2px;
+	text-align: left;
+	width: 50%;
+}
+
+td:last-child {
+	text-align: justify;
+}
+
+.imagen:hover {
+	transform: scale(1.2);
+}

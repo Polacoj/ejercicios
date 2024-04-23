@@ -1,0 +1,43 @@
+body {
+	height: 100svh;
+    background-color: blue;
+    margin: 0;
+}
+
+.contenedor_grid{
+    display: grid;
+	grid-template-areas: 
+	"header header"
+	"main main"
+	"footer .";
+
+}
+
+div{
+	height: 50px;
+	aspect-ratio: 1;
+	border: 1px solid yellow;
+	background-color: beige;
+
+}
+
+header{
+grid-area: header;
+	background-color: burlywood;
+
+}
+
+main{
+
+	grid-area: main;
+background-color: chocolate;
+display: flex;
+gap: 1rem;
+
+}
+
+footer{
+	grid-area: footer;
+background-color: darkgray;
+
+}

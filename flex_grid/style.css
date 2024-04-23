@@ -1,0 +1,93 @@
+:root {
+	--color-fondo: #222831;
+	--color-principal: #76abae;
+	--color-lineas: #eeeeee;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 100svh; /*----svh  screen view high-------*/
+	width: 100svw;
+    background-color: var(--color-fondo);
+
+}
+
+/* --------Encabezado------------- */
+
+.contenedor_grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	height: auto;
+    
+
+}
+
+.contenedor_grid a {
+	font-size: 4rem;
+	color: var(--color-lineas);
+	text-decoration: none;
+	text-align: center;
+    margin: 2rem;
+    
+
+}
+
+.contenedor_grid a:nth-last-child(odd) {
+    background-color: chocolate;
+}
+.contenedor_grid a:nth-last-child(even) {
+    background-color: violet;
+}
+
+
+
+.contenedor_grid .material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+	font-size: 0.5em;
+}
+
+/* ---------------Cuerpo MAIN---------------------- */
+
+.__contenedor {
+	height: 100svh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	gap: 3rem;
+	grid-area: "main";
+}
+
+h1 {
+	text-align: center;
+	color: var(--color-lineas);
+	line-height: 150px;
+	/* margin: 50%; */
+}
+
+main > div {
+	height: 150px;
+	aspect-ratio: 1;
+	border-radius: 23px;
+	border: 1px solid var(--color-lineas);
+	flex-grow: 1;
+	transition: all 600ms ease;
+}
+
+main > div:nth-child(even) {
+	background-color: var(--color-principal);
+}
+
+main > div:nth-child(odd):hover {
+	flex-grow: 100;
+}
+
+main > div:nth-child(even):hover {
+	background-image: url(Imagen.png);
+	background-position: center;
+	background-size: contain;
+}
