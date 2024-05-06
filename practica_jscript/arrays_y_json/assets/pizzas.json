@@ -1,0 +1,42 @@
+[{
+    "nombre": "Ostrich - Fan Fillet",
+    "descripcion": "Accounting",
+    "precio": 48915.3
+  }, 
+  {
+    "nombre": "Sausage - Meat",
+    "descripcion": "Marketing",
+    "precio": 91747.81
+  }, {
+    "nombre": "Yogurt - Cherry, 175 Gr",
+    "descripcion": "Sales",
+    "precio": 91558.75
+  }, {
+    "nombre": "Chick Peas - Dried",
+    "descripcion": "Business Development",
+    "precio": 64051.67
+  }, {
+    "nombre": "Beef - Ox Tongue, Pickled",
+    "descripcion": "Engineering",
+    "precio": 93822.92
+  }, {
+    "nombre": "Rum - Spiced, Captain Morgan",
+    "descripcion": "Sales",
+    "precio": 59234.31
+  }, {
+    "nombre": "Dehydrated Kelp Kombo",
+    "descripcion": "Accounting",
+    "precio": 94473.97
+  }, {
+    "nombre": "Vinegar - Balsamic, White",
+    "descripcion": "Training",
+    "precio": 61505.41
+  }, {
+    "nombre": "Sauce - Thousand Island",
+    "descripcion": "Legal",
+    "precio": 22769.15
+  }, {
+    "nombre": "Steam Pan - Half Size Deep",
+    "descripcion": "Human Resources",
+    "precio": 79521.92
+  }]
