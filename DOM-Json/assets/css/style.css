@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.material-symbols-outlined{
+    margin: 2%;
+    font-size: 5em;
+    text-shadow: 2px 2px whitesmoke;
+    background-color: rgb(58, 149, 58);
+}
